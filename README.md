@@ -17,7 +17,6 @@
 * [API Endpoints](#api-endpoints)
 * [Blockchain Verification Concept (Simulated)](#blockchain-verification-concept-simulated)
 * [Usage Examples](#usage-examples)
-* [Performance Benchmarks (Conceptual)](#performance-benchmarks-conceptual)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
