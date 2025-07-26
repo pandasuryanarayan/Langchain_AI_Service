@@ -1,0 +1,23 @@
+/* src/index.css */
+/* Only include global styles not managed by Tailwind or that you explicitly want */
+
+/* Ensure html and body take full height for min-h-screen to work correctly */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a default font if not handled by Tailwind classes on the root element */
+body {
+  font-family: 'Inter', sans-serif; /* Use Inter if you've linked it via CDN */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* You can keep other root variables if you use them elsewhere */
+:root {
+  color-scheme: light dark; /* Or just light */
+  /* Remove background-color here as it's handled by App.js */
+  /* Remove font-family, line-height, font-weight if using Tailwind's font-sans */
+}
