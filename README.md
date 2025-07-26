@@ -68,10 +68,9 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
-    cd <your-repo-name>/backend
+    git clone https://github.com/pandasuryanarayan/Langchain_AI_Service.git
+    cd Langchain_AI_Service>/backendaiapi
     ```
-    *(If you don't have a repo yet, create the `app.py` file in a new directory, e.g., `backend`.)*
 
 2.  **Create and activate a virtual environment** (highly recommended for dependency management):
     ```bash
@@ -91,6 +90,7 @@ Before you begin, ensure you have the following installed:
     Flask-Cors
     langchain
     langchain-google-genai
+    python-dotenv
     ```
     Then, install them:
     ```bash
@@ -122,9 +122,9 @@ Before you begin, ensure you have the following installed:
 ### 2. Frontend Setup
 
 1.  **Navigate to the frontend directory:**
-    Assuming your project structure is `<your-repo-name>/backendaiapi` and `<your-repo-name>/frontend`, navigate to the `frontend` directory:
+    Navigate to your project `frontend`
     ```bash
-    cd ../frontend # Or cd <your-repo-name>/frontend if you are in the root
+    cd Langchain_AI_Service/frontend
     ```
 
 2.  **Install JavaScript dependencies:**
